@@ -1,0 +1,359 @@
+body{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.parent{
+    margin: 0px 20px;
+    width: 98%;
+    margin: 0px auto;
+}
+h1{
+    color: #00252d;
+}
+/*Start Header*/
+.parent header{
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.parent header .content-one{
+    width: 90%;
+    margin: 0px auto;
+}
+.parent header .first-header{
+    margin-bottom: 50px;
+}
+.parent header .first-header img{
+    margin-top: 20px;
+    width: 15%;
+}
+.parent header .first-header button{
+    width: 20%;
+    padding: 14px 11px;
+    margin: -15px 0px 0px 64%;
+    font-weight: bold;
+    color: #1b3a3d;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    box-shadow: #a0a4a7 1px 1px 7px 1px;
+}
+.parent header .first-header button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+/**/
+.parent header .last-header{
+    display: grid;
+    gap: 4%;
+    grid-template-columns: repeat(2,50%);
+    max-width: 90%;
+    margin: 0px 50px 0px 0px;
+}
+.parent header .last-header .text{
+    margin-top: 30px;
+}
+.parent header .last-header .text h1{
+    font-size: 39px;
+    font-weight: bold;
+    padding-right: 55px;
+}
+.parent header .last-header .text p{
+    font-size: 18px;
+    padding-right: 45px;
+    margin-bottom: 30px;
+    color: #243d44;
+}
+.parent header .last-header .text button{
+    width: 50%;
+    padding: 14px 11px;
+    font-weight: bold;
+    border: none;
+    background-color: #fe52c0;
+    color: #fff;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.parent header .last-header .text button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.parent header .last-header img{
+    width: 110%;
+}
+/*End Header*/
+
+/*Start Main*/
+main{
+    margin: 10px 0px;
+    padding: 150px 0px;
+    background-color: #ffffff;
+    width: 100%;
+}
+main .content{
+    margin: 0px auto 350px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    gap: 5%;
+}
+main .content .brdr{
+    box-shadow: #f1f2f3 1px 1px 7px 1px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+main .content div h1{
+    font-size: 25px;
+    margin: 100px 0px 20px;
+}
+main .content div p{
+    padding-right: 90px;
+    line-height: 1.6;
+    color: #a0a4a7;
+}
+main .content div img{
+    width: 90%;
+}
+/**/
+main .text-akhir{
+    box-shadow: inset #f1f2f3 1px 1px 1px 1px;
+    position: relative;
+    width: 50%;
+    border-radius: 15px;
+    height: 200px;
+    margin: -70px auto 0px;
+    background-color: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+main .text-akhir h1{
+    padding-top: 30px;
+    text-align: center;
+}
+main .text-akhir button{
+    width: 50%;
+    padding: 18px 11px;
+    margin: 15px 25%;
+    font-weight: bold;
+    border: none;
+    background-color: #fe52c0;
+    color: #fff;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+main .text-akhir button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+/*End Main*/
+
+/*Start Footer*/
+footer{
+    margin-top: -250px;
+    background-color: #00252e;
+    color: #fff;
+    z-index: -1;
+}
+footer .content-footer{
+    padding: 180px 0px 50px;
+    width: 90%;
+    margin: 0px auto 0px;
+}
+footer .content-footer .div-img img{
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+}
+footer .content-footer .div-grid{
+    display: grid;
+    grid-template-columns: 40% 15% 15% 30%;
+    margin-top: 15px;
+}
+footer .content-footer .div-grid .div-one div{
+    margin: 35px 0px ;
+}
+footer .content-footer .div-grid .div-one .paraghraphe{
+    display: inline;
+}
+footer .content-footer .div-grid .div-one div p{
+    margin: -22px 0px -20px 40px;
+    line-height: 1.5;
+    font-size: 15px;
+    padding-right: 80px;
+}
+a{
+    color: #fff;
+}
+footer .content-footer .div-grid div:not(:first-child){
+    margin-top: 40px;
+}
+footer .content-footer .div-grid div:not(:first-child) a{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: none;
+}
+footer .content-footer .div-grid div:not(:first-child) a:hover{
+    text-decoration: underline;
+}
+footer .content-footer .icon-four .icon{
+    display: grid;
+    grid-template-columns: repeat(3,12%);
+}    
+footer .content-footer .icon-four .icon img{
+    filter: brightness(0) invert(1);
+} 
+footer .content-footer .icon-four .icon img:hover{
+    filter: invert(59%) sepia(96%) saturate(3551%) hue-rotate(293deg) brightness(100%) contrast(101%);
+} 
+footer .content-footer .icon-four p{
+    margin-top: 150px;
+    font-size: 17px;
+}
+/*End Footer*/
+
+@media only screen and (max-width: 425px) {
+    .parent{
+        min-width: 98%;
+        margin: 0px auto;
+    }
+
+    /*Start Header*/
+    .parent header{
+        background-image: url(/images/bg-hero-mobile.svg);
+    }
+    .parent header .content-one{
+        width: 95%;
+    }
+    .parent header .first-header{
+        margin-bottom: 25px;
+    }
+    .parent header .first-header button{
+        width: 30%;
+        padding: 10px;
+        margin: -15px 0px 0px 64%;
+    }
+    .parent header .last-header{
+        text-align: center;
+        gap: 0%;
+        grid-template-columns: repeat(1,100%);
+        min-width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+    .parent header .last-header .text{
+        margin-top: 30px;
+    }
+    .parent header .last-header .text h1{
+        font-size: 30px;
+        padding-right: 0px;
+    }
+    .parent header .last-header .text p{
+        padding: 0px 20px;
+    }
+    .parent header .last-header .text button{
+        margin-bottom: 60px;
+    }
+    .parent header .last-header img{
+        width: 80%;
+        margin: 0px auto;
+    }
+    /*End Header*/
+
+    /*Start Main*/
+    main{
+        margin: 0px;
+        padding: 60px 0px;
+        width: 100%;
+    }
+    main .content{
+        text-align: center;
+        margin: 0px auto 350px;/**/
+        width: 95%;
+        grid-template-columns: repeat(1,100%);
+        gap: 5%;
+    }
+    main .content .brdr{/*tebdal photo 9ebal ada katba*/
+        padding: 10px;
+        grid-template-columns: repeat(1,100%);
+        min-width: 100%;
+    }
+    main .content .brdr div:first-child{
+        grid-row: 3 / 5;
+    }
+    main .content .brdr div:last-child{
+        grid-row: 1 / 3;
+    }
+    .brdr-two div:first-child{
+        grid-row: 1 / 3 !important;
+    }
+    .brdr-two div:last-child{
+        grid-row: 3 / 5 !important;
+    }
+    main .content div h1{
+        font-size: 25px;
+        margin: 50px 0px 20px;
+    }
+    main .content div p{
+        padding: 0px 40px;
+    }
+    main .text-akhir{
+        width: 92%;
+        padding-bottom: 20px;
+        margin: -70px auto 0px;
+    }
+    /*End Main*/
+
+    /*Start Footer*/
+    footer{
+        margin-top: -120px;
+    }
+    footer .content-footer{
+        padding: 150px 0px 50px;
+        width: 98%;
+        margin: 0px auto 0px 5%;
+    }
+    footer .content-footer .div-grid{
+        grid-template-columns: repeat(1,100%);
+    }
+    footer .content-footer .div-grid .div-one div{
+        margin: 35px 0px;
+    }
+    footer .content-footer .div-grid .icon-three{
+        margin-top: 0px !important;
+    }
+    footer .content-footer .div-grid .icon-two{
+        margin-top: 40px;
+    }
+    footer .content-footer .icon-four{
+        margin: 0px auto;
+    }
+    footer .content-footer .icon-four .icon{
+        grid-template-columns: repeat(3,12%);
+        justify-content: center;
+    }
+    footer .content-footer .icon-four p{
+        margin-top: 25px;
+        font-size: 15px;
+    }
+    /*End Footer*/
+}
